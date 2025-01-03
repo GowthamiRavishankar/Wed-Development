@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce Landing Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Learn More</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-details">
+      <div class="product-images">
+        <img src="assets/product-image.jpg" alt="Product" class="main-product-image">
+        <div class="additional-images">
+          <img src="assets/additional-image1.jpg" alt="Additional Image 1">
+          <img src="assets/additional-image2.jpg" alt="Additional Image 2">
+        </div>
+      </div>
+
+      <div class="product-info">
+        <h1>Stylish Jacket</h1>
+        <p class="description">A warm and stylish jacket perfect for winter weather.</p>
+        <div class="price">$49.99</div>
+        <button class="cta-button" onclick="addToCart()">Add to Cart</button>
+      </div>
+    </section>
+
+    <section class="customer-reviews">
+      <h2>Customer Reviews</h2>
+      <p>⭐⭐⭐⭐⭐ - "Great jacket, keeps me warm!" - Alice</p>
+      <p>⭐⭐⭐⭐☆ - "Nice style, but could be a bit warmer." - Bob</p>
+    </section>
+
+    <section class="newsletter-signup">
+      <h2>Sign Up for Updates</h2>
+      <form id="newsletter-form">
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-media">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
